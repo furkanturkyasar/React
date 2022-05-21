@@ -1,4 +1,4 @@
-import getData from "./get-data.js";
+import getData from "./get-data.js"
 
 const data = await getData(1)
-console.log(data); 
+console.log(data)

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
 
-function Button() {
+function Header() {
   const { theme, setTheme } = useContext(ThemeContext);
   return (
     <div>
@@ -14,4 +14,4 @@ function Button() {
   );
 }
 
-export default Button;
+export default Header;

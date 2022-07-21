@@ -6,7 +6,8 @@ const WeatherContext = createContext();
 export const WeatherProvider = ({ children }) => {
   const [weather, setWeather] = useState([]);
 
-  const [city, setCity] = useState(citiesJSON.find((item) => item.id === 35));
+  //Default city is Istanbul
+  const [city, setCity] = useState(citiesJSON.find((item) => item.id === 34));
 
   const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 

@@ -1,2 +1,2 @@
 # React
-# React Patika React ödevleri için açtığım repo. [Profilim](https://app.patika.dev/Anaximandros34)
+# Patika React ödevleri için açtığım repo. [Profilim](https://app.patika.dev/Anaximandros34)
